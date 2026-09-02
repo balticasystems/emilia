@@ -22,7 +22,7 @@ void emilia_logo()
     uart_write_string("\n");
 }
 
-void emilia_kernel()
+void emilia_main()
 {
     // Logo
     emilia_logo();
