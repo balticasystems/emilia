@@ -3,7 +3,7 @@
 void emilia_logo()
 {
     uart_write_string("\n");
-    uart_write_string("                                   o8o\n");
+    uart_write_string("                                 o8o\n");
     uart_write_string("                             `\"'  `888   `\"'\n");
     uart_write_string(" .ooooo.  ooo. .oo.  .oo.   oooo   888  oooo   .oooo.\n");
     uart_write_string("d88' `88b `888P\"Y88bP\"Y88b  `888   888  `888  `P  )88b\n");
