@@ -5,4 +5,6 @@ repos = [
     ["Scala-Systems", "qemu.h"],
     ["Scala-Systems", "Makefile"],
     ["Scala-Systems", "emilia.ld"],
+    ["Scala-Systems", "jny.ld"],
+    ["Scala-Systems", "jny"],
 ]
