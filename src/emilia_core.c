@@ -1,4 +1,4 @@
-#include "../include/qemu_dev.h"
+#include "../include/qemu.h"
 
 void emilia_logo()
 {
@@ -20,4 +20,13 @@ void emilia_logo()
     uart_write_string(" 888   888   888  `88b.  888    .o  888      888   888  888    .o  888\n");
     uart_write_string(" `V88V\"V8P\' o888o  o888o `Y8bod8P\' d888b    o888o o888o `Y8bod8P\' o888o\n");
     uart_write_string("\n");
+}
+
+void emilia_kernel()
+{
+    // Logo
+    emilia_logo();
+
+    // Test passed
+    SIFIVE_TEST_PASS();
 }

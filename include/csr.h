@@ -1,7 +1,5 @@
 #pragma once
 
-#include <stdint.h>
-
 #define MHARTID  "mhartid"   // hart's unique ID, read-only, set by hardware
 #define MTVEC    "mtvec"     // trap handler entry address + mode (direct/vectored)
 #define MSTATUS  "mstatus"   // global interrupt enable + privilege mode tracking
@@ -16,7 +14,7 @@
     asm volatile ("csrr %0, " CSR_REG : "=r" (REG))       // read CSR into REG
 #define CSRW(CSR_REG, REG) \
     asm volatile ("csrw " CSR_REG ", %0" : : "r" (REG))   // overwrite entire CSR with REG
-#define CSRRW(REG, CSR_REG) \ 
+#define CSRRW(REG, CSR_REG) \
     asm volatile ("csrrw %0, " CSR_REG ", %0" : "+r" (REG) : : "memory") // atomically swap REG and CSR
 #define CSRS(CSR_REG, REG) \
     asm volatile ("csrs " CSR_REG ", %0" : : "r" (REG))   // atomically set bits in CSR per REG mask

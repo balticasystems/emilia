@@ -2,7 +2,7 @@
 repos = [
     ["Scala-Systems", "csr.h"],
     ["Scala-Systems", "extensions.h"],
-    ["Scala-Systems", "qemu_dev.h"],
-    # ["Scala-Systems", "Makefile"],
-    # ["Scala-Systems", "linker.ld"],
+    ["Scala-Systems", "qemu.h"],
+    ["Scala-Systems", "Makefile"],
+    ["Scala-Systems", "emilia.ld"],
 ]
