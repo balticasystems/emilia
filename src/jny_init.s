@@ -1,4 +1,5 @@
 .section .text.init
+
 .global _bstart
 .global trap_handler
 
@@ -7,6 +8,7 @@ _bstart:
     bnez t0, park_hart      # if it is not 0 disable
     la sp, _stack_top       # initialize the stack stack
     call jny_main           # jump into C part of the bootloader
+    j _kstart
 
 park_hart:
     wfi                     # wait until the next interrupt

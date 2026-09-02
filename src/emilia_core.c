@@ -12,13 +12,13 @@ void emilia_logo()
     uart_write_string("`Y8bod8P' o888o o888o o888o o888o o888o o888o `Y888\"\"8o\n");
     uart_write_string("\n");
     uart_write_string("\n");
-    uart_write_string("            oooo    oooo                                          oooo\n");
-    uart_write_string("            `888   .8P'                                           `888\n");
-    uart_write_string("oooo  oooo   888  d8'     .ooooo.  oooo d8b ooo. .oo.    .ooooo.   888\n");
-    uart_write_string("`888  `888   88888[      d88' `88b `888""8P `888P\"Y88b  d88\' `88b  888\n");
-    uart_write_string(" 888   888   888`88b.    888ooo888  888      888   888  888ooo888  888\n");
-    uart_write_string(" 888   888   888  `88b.  888    .o  888      888   888  888    .o  888\n");
-    uart_write_string(" `V88V\"V8P\' o888o  o888o `Y8bod8P\' d888b    o888o o888o `Y8bod8P\' o888o\n");
+    uart_write_string("                         oooo    oooo                                          oooo\n");
+    uart_write_string("                         `888   .8P'                                           `888\n");
+    uart_write_string("             oooo  oooo   888  d8'     .ooooo.  oooo d8b ooo. .oo.    .ooooo.   888\n");
+    uart_write_string("             `888  `888   88888[      d88' `88b `888""8P `888P\"Y88b  d88\' `88b  888\n");
+    uart_write_string("              888   888   888`88b.    888ooo888  888      888   888  888ooo888  888\n");
+    uart_write_string("              888   888   888  `88b.  888    .o  888      888   888  888    .o  888\n");
+    uart_write_string("              `V88V\"V8P\' o888o  o888o `Y8bod8P\' d888b    o888o o888o `Y8bod8P\' o888o\n");
     uart_write_string("\n");
 }
 

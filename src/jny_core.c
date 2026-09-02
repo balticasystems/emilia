@@ -191,8 +191,5 @@ void jny_main()
     uart_write_string("[jny_main] dispatcher test passed\n");
 #endif
 
-    // Success
-
-    // TEST PASSED (EXIT)
-    SIFIVE_TEST_PASS();
+    // Handover
 }
