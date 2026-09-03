@@ -1,10 +1,10 @@
 [dependencies]
 repos = [
-    ["Scala-Systems", "csr.h"],
-    ["Scala-Systems", "extensions.h"],
-    ["Scala-Systems", "qemu.h"],
-    ["Scala-Systems", "Makefile"],
-    ["Scala-Systems", "emilia.ld"],
-    ["Scala-Systems", "jny.ld"],
-    ["Scala-Systems", "jny"],
+    ["balticasystems", "csr.h"],
+    ["balticasystems", "extensions.h"],
+    ["balticasystems", "qemu.h"],
+    ["balticasystems", "Makefile"],
+    ["balticasystems", "emilia.ld"],
+    ["balticasystems", "jny.ld"],
+    ["balticasystems", "jny"],
 ]
