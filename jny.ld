@@ -72,6 +72,7 @@ SECTIONS
     _end = .;
 
     /* Provide kernel start */
+    /* The trap stack grows downward from here, so nothing overlaps _kstart itself */
     PROVIDE(_kstart = KERNEL_ORIGIN);
 
     /* Provide the _trap_stack_top symbol */
